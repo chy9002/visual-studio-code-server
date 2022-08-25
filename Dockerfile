@@ -6,4 +6,4 @@ RUN \
         build-essential vim wget ca-certificates
 RUN wget -O- --no-check-certificate https://aka.ms/install-vscode-server/setup.sh | sh
 
-CMD ["code-server"]
+CMD ["/usr/local/bin/code-server"]

@@ -6,4 +6,4 @@ RUN \
         build-essential vim wget
 RUN wget -O- https://aka.ms/install-vscode-server/setup.sh | sh
 
-CMD ["code-server"]
+CMD ["/bin/sh","-c","code-server"]
